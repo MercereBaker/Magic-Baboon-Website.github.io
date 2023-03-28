@@ -1,0 +1,347 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to left top, #2193b0, #6dd5ed);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+.navigation_bar
+{
+    background-color:aliceblue;
+}
+
+#nav_links
+{
+    overflow: hidden;
+    font-size:x-large;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#nav_links li
+{
+    float: left;
+    color:#00caf8;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-duration: 0.5s;
+    
+}
+
+#nav_links a
+{
+    text-decoration: none;
+}
+
+
+#nav_links li:hover
+{
+    cursor: pointer;
+}
+
+#nav_links li ul
+{
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+}
+
+#nav_links li ul li
+{
+    clear:both;
+}
+
+
+#nav_links li:hover > ul, #nav_links li ul:hover
+{
+    visibility: visible;
+    opacity: 1;
+    display:block;
+}
+
+
+h1 
+{
+   text-align: center;
+   padding-top: 40px;
+   color:aliceblue;
+   margin-bottom: 20px;
+}
+
+h2 
+{
+    text-align: center;
+    margin-bottom: 30px;
+    color:aliceblue;
+}
+
+h3 
+{
+    text-align: center;
+    color:aliceblue;
+}
+
+
+
+#logo 
+{
+    background-color: aliceblue;
+    height: 35px;
+    width: 40px;
+    float:left;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+#logoIntro 
+{
+    background-color: white;
+    height:200px;
+    width: 225px;
+    margin-left: auto;
+    margin: auto;
+    display: block;
+    border-radius: 9px;
+    
+    
+}
+
+.box 
+{
+    background-color: white;
+    color:gray;
+    max-width: 600px;
+    min-width: 600px;
+    padding: 25px 75px 25px 75px;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-radius: 9px;
+}
+
+.box h3
+{
+  color:gray
+}
+
+.textEntryForm 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.textEntryForm input 
+{
+    grid-column: 1 / 2;
+}
+
+.textEntryForm label 
+{
+    grid-column: 2 / 3;
+}
+
+.textEntryForm button 
+{
+   grid-column: 2 / 3;
+}
+
+.labelButtonBox 
+{
+    
+}
+
+.labelButtonBox label 
+{
+    margin-right:250px;
+}
+
+.labelButtonBox button 
+{
+    margin-left: 250px;
+}
+
+.buttonToLeft 
+{
+    margin-right: 520px;
+}
+
+.listAlign 
+{
+    list-style-position:outside;
+    text-align: left;
+}
+
+.listAlign li 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.listAlign li ul line
+{ 
+    list-style: disc;
+}
+
+.list_left_box 
+{
+    list-style-position: inside;
+    padding: 20px 200px 20px 0px;
+    margin-top: 50px;
+    text-align: left;
+    background-color: white;
+    max-width: 600px;
+    margin-left: 20%;
+}
+
+.list_left_padding 
+{
+    padding-right: 0px;
+}
+
+.calculator_keys {
+    display: grid;
+}
+
+.box table
+{
+    border-collapse: collapse;
+    
+    margin: auto;
+}
+
+.box thead
+{
+    background-color: rgb(0, 217, 255);
+}
+
+.box th, td
+{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.box tbody tr:nth-child(odd) td
+{
+    background-color: rgb(138, 233, 252);
+}
+
+.box tbody tr:nth-child(even) td
+{
+    background-color: rgb(254, 255, 255);
+}
+
+.box ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.box ol{
+    color: grey;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.box ol li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box figcaption{
+    margin: 10px;
+}
+
+p 
+{
+    margin:auto;
+    max-width: 600px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.padding 
+{
+    padding-top: 20px;
+}
+
+.botpadding 
+{
+    padding-bottom: 20px;
+}
+
+.wrapper 
+{
+    flex:1;
+}
+
+footer 
+{
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    bottom:0;
+}
+
+.copyright 
+{
+    color:grey;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+a 
+{
+    color:#00caf8
+}
+
+a:visited 
+{
+    color:#00caf8
+}
+
+a:hover
+{
+    color:#00caf8
+}
+
+a:active
+{
+    color:#00caf8
+}
+
+#htmlValidator 
+{
+    text-decoration: none;
+}
+
+#cssValidator 
+{
+    text-decoration: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ITSC 3135 Magic Baboon's First Scripts</title> 
+<link rel="stylesheet" type="text/css" href="styles/default.css"/>
+<link rel="icon" href="images/magicbaboonmascot.png">
+</head>
+<body>
+<header>
+<div class="navigation_bar">
+<a href="index.html"><img src="images/magicbaboonmascot.png" alt="Index" id="logo"></a>
+<ul id="nav_links">
+<li><a>Assignments</a>
+    <ul>
+    <li><a href="forms.html">Forms</a></li>
+    <li><a href="firstscripts.html">First Scripts</a></li>
+    <li><a href="tables.html">Tables</a></li>
+    <li><a href="website_evaluations.html">Website Evaluations</a></li>
+    <li><a href="polygons.html">Polygons</a></li>
+    <li><a href="calculator_try.html">First Calculator</a></li>
+    <li><a href="calculator_fcc.html">Calculator</a></li>
+    </ul>
+</li>
+<li><a href="web-baker.com/">Web Baker</a></li>
+<li><a>More</a>
+    <ul class="dropdown">
+    <li><a href="introduction.html">Introduction</a></li>
+    <li><a href="contract.html">Contract</a></li>
+    <li><a></a></li>
+    </ul>
+</li>
+</ul>
+</div>
+<h1>ITSC 3135 - Mercere Baker</h1>
+</header>
+<main>
+    <h2>First Scripts</h2>
+    <div class="box">
+    <h3>Today's date and time: <div id="showDate"></div></h3>
+    </div>
+
+    <div class="box">
+    <div class="textEntryForm">
+    <form method="post" action="#"id="userInfo">
+    <label for="name"><input name="name" required type="text" id="firstScriptName"/>Enter your name.</label>
+    <label for="mood"><input name="mood" required type="text" id="firstScriptMood"/>How are you feeling?</label>
+    
+    </form>
+    <button onclick="greeting()" class="buttonToLeft">Click here!</button>
+    </div>
+    <p id="welcome"></p>
+    
+    <div id="welcome"></div>
+    <p id="completeUserGreeting"></p>
+    </div>
+
+    <div class="box">
+    <div class ="labelButtonBox">
+        <label for="usermagic">See YOUR magic power percent!
+        <button onclick="user_magic()" id="usermagic">Magic Power</button></label><br>
+        <label for="userprimate">Which primate are you?
+        <button onclick="user_primate()" id="userprimate">Your Primate</button></label><br>
+        <label for="userpower">Check to see your primate wizard power!
+        <button onclick="user_power()" id="userpower">Special Power</button></label><br>
+        <label for="userwizard">Click here to see your wizard title.
+        <button onclick="user_wizard()" id="userwizard">Your Title</button></label><br>
+        <label for="usermoral">Are you a good or evil wizard?
+        <button onclick="user_moral()" id="usermoral">Good or Evil?</button></label>
+    </div>
+    </div>
+</main>
+<div class="wrapper"></div>
+<footer>
+    <p class="copyright">Copyright © 2023 <a href="web-baker.com/index.html" class="footerCopyrightLink">Web Baker</a></p>
+    <p>
+    <a href="https://validator.w3.org/check?uri=referer" id="htmlValidator">
+    <img src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML." />
+    </a>   
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS." />
+    </a>
+    </p>
+</footer>
+<script language="Javascript" type="text/javascript" src="scripts/defaultscripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Magic Baboon's Client Tables</title>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+		<link rel="icon" href="images/magicbaboonmascot.png">
+	</head>
+<body>
+	<header>
+		<div class="navigation_bar">
+			<a href="index.html"><img src="images/magicbaboonmascot.png" alt="Index" id="logo"></a>
+		<ul id="nav_links">
+		<li><a>Assignments</a>
+			<ul>
+			<li><a href="forms.html">Forms</a></li>
+			<li><a href="firstscripts.html">First Scripts</a></li>
+			<li><a href="tables.html">Tables</a></li>
+			<li><a href="website_evaluations.html">Website Evaluations</a></li>
+			<li><a href="polygons.html">Polygons</a></li>
+			<li><a href="calculator_try.html">First Calculator</a></li>
+            <li><a href="calculator_fcc.html">Calculator</a></li>
+			</ul>
+		</li>
+		<li><a href="web-baker.com/">Web Baker</a></li>
+		<li><a>More</a>
+			<ul class="dropdown">
+			<li><a href="introduction.html">Introduction</a></li>
+			<li><a href="contract.html">Contract</a></li>
+			<li><a></a></li>
+			</ul>
+		</li>
+		</ul>
+		</div>
+		<h1>ITSC 3135 - Mercere Baker</h1>
+		</header>
+	<h2>HTML Tables</h2>
+	<div class="box">
+	<h3>My Tabular Data</h3>
+	<ol id="Data">
+		<li>Mercere Baker, mbaker89@uncc.edu, 14 Years</li>
+		<li>Clark Collins, clarkcollins1999@gmail.com, 10 Years</li>
+		<li>Halord Field, hField@gmail.com, 9 Years</li>
+		<li>Yang Neilman, YNMan@gmail.com, 3 Years</li>
+		<li>Mark James, MJames43@gmail.com, 2 Years</li> 
+		<li>Joy West, West54234@gmail.com, 0.5 Years</li>
+		<li>Thomas Vogh Thomas, Vogh@gmail.com, 0.5 Years</li>
+	</ol>
+	</div>
+
+	<div class="box">
+	<h3>Employee Data in Simple Table</h3>
+	<table id="Simple">
+		<tr>
+		  <th>Name</th>
+		  <th>Email</th>
+		  <th>Years of Service</th>
+		</tr>
+		<tr>
+		  <td>Mercere Baker</td>
+		  <td>mbaker89@uncc.edu</td>
+		  <td>14</td>
+		</tr>
+		<tr>
+		  <td>Clark Collins</td>
+		  <td>clarkcollins1999@gmail.com</td>
+		  <td>10</td>
+		</tr>
+		<tr>
+		  <td>Halord Field</td>
+		  <td>hField@gmail.com</td>
+		  <td>9</td>
+		</tr>
+		<tr>
+			<td>Yang Neilman</td>
+			<td>YNMan@gmail.com</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Mark James</td>
+			<td>MJames43@gmail.com</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Joy West</td>
+			<td>West54234@gmail.com</td>
+			<td>0.5</td>
+		</tr>
+		<tr>
+			<td>Thomas Vogh</td>
+			<td>ThomasVogh@gmail.com</td>
+			<td>0.5</td>
+		</tr>
+	  </table>
+	</div>
+<div class="box">
+<h3>Employee Data in Complex Table</h3> 
+<figure>
+	<table>
+		<thead>
+			<tr>
+				<th id="co1" headers="blank">Department</th>
+				<th id="co2" headers="blank">Name</th>
+				<th id="co3" headers="blank">E-mail</th>
+				<th id="co4" headers="blank">Years of Service</th>
+				<th id="co5" headers="blank">Salary</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="2" id="c1" headers="blank">Research</th>
+				<td headers="co1 c1">Mercere Baker</td>
+				<td headers="co2 c1">mbaker89@uncc.edu</td>
+				<td class="right" headers="co3 c1">14</td>
+				<td headers="co4 c1">$90000</td>
+			</tr>
+			<tr>
+				<td headers="co1 c2">Clark Collins</td>
+				<td headers="co2 c2">clarkcollins1999@gmail.com</td>
+				<td class="right" headers="co3 c2">10</td>
+				<td headers="co4 c2">$55000</td>
+			</tr>
+			<tr>
+				<th rowspan="3" id="c2" headers="blank">Development</th>
+				<td headers="co1 c3">Halord Field</td>
+				<td headers="co2 c3">hField@gmail.com</td>
+				<td class="right" headers="co3 c3">9</td>
+				<td headers="co4 c3">$54000</td>
+			</tr>
+			<tr>
+				<td headers="co1 c4">Yang Neilman</td>
+				<td headers="co2 c4">YNMan@gmail.com</td>
+				<td class="right" headers="co3 c4">3</td>
+				<td headers="co4 c4">$30000</td>
+			</tr>
+			<tr>
+				<td headers="co1 c5">Mark James</td>
+				<td headers="co2 c5">MJames43@gmail.com</td>
+				<td class="right" headers="co3 c5">2</td>
+				<td headers="co4 c5">$30000</td>
+			</tr>
+			<tr>
+				<th rowspan="2" id="c3" headers="blank">Marketing</th>
+				<td headers="co1 c6">Joy West</td>
+				<td headers="co2 c6">West54234@gmail.com</td>
+				<td class="right" headers="co3 c6">0.5</td>
+				<td headers="co4 c6">$0</td>
+			</tr>
+			<tr>
+				<td headers="co1 c7">Thomas Vogh</td>
+				<td headers="co2 c7">ThomasVogh@gmail.com</td>
+				<td class="right" headers="co3 c7">0.5</td>
+				<td headers="co4 c7">$0</td>
+			</tr>
+			<tr>
+				<th colspan="3" class="right" id="c4" headers="blank">Total Years of Service</th>
+				<td class="right" headers="co3 c8">39</td>
+				<td headers="co4 c8">$259,000</td>
+
+			</tr>
+		</tbody>
+	</table>
+	<figcaption>Thank you all for your effort!</figcaption>
+</figure>
+</div>
+<footer>
+	<p class="copyright">Copyright © 2023 <a href="web-baker.com/index.html">Web Baker</a></p>
+	<p>
+	<a href="https://validator.w3.org/check?uri=referer" id="htmlValidator">
+	<img src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML." />
+	</a>   
+	<a href="https://jigsaw.w3.org/css-validator/check/referer">
+	<img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS." />
+	</a>
+	</p>
+	</footer>
+</body>
+</html>

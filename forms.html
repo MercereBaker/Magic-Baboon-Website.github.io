@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Magic Baboon's Forms</title>
+    <meta name="description" content="3135 Activity">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <link rel="icon" href="images/magicbaboonmascot.png">
+    <style>
+    </style>
+  </head>
+<body>
+  <header>
+    <div class="navigation_bar">
+    <a href="index.html"><img src="images/magicbaboonmascot.png" alt="Index" id="logo"></a>
+    <ul id="nav_links">
+    <li><a>Assignments</a>
+        <ul>
+        <li><a href="forms.html">Forms</a></li>
+        <li><a href="firstscripts.html">First Scripts</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li><a href="website_evaluations.html">Website Evaluations</a></li>
+        <li><a href="polygons.html">Polygons</a></li>
+        <li><a href="calculator_try.html">First Calculator</a></li>
+        <li><a href="calculator_fcc.html">Calculator</a></li>
+        </ul>
+    </li>
+    <li><a href="web-baker.com/">Web Baker</a></li>
+    <li><a>More</a>
+        <ul class="dropdown">
+        <li><a href="introduction.html">Introduction</a></li>
+        <li><a href="contract.html">Contract</a></li>
+        <li><a></a></li>
+        </ul>
+    </li>
+    </ul>
+    </div>
+    <h1>ITSC 3135 - Mercere Baker</h1>
+    </header>
+<main>
+
+<h2>Forms</h2>
+<div class="box">
+<form action="#">
+    <h3>Client Information</h3>
+      <div class="textEntryForm">
+      <input id="name" maxlength="35" type="text" name="user-name" placeholder="Enter your name" required><label for="name">Name</label> <br>
+      <input id="tel" maxlength="13" type="number" name="phone-number" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><label for="tel">Phone Number</label> <br>
+      <input id="email" maxlength="45" type="email" name="email" placeholder="Email here" required><label for="email">Email</label><br>
+      </div>
+  
+      <p class="thick">How did you learn about us?</p>
+      <input type="checkbox" id="choice1" name="readonline" value="readonline">
+      <label for="choice1">The Web</label><br>
+      <input type="checkbox" id="choice2" name="referred" value="referred">
+      <label for="choice2">Referral</label><br>
+    
+      <p class="thick">What kind of website do you want developed?</p>
+      <input type="radio" id="webChoice1" name="webChoice" value="Blog">
+      <label for="webChoice1">Blog</label><br>
+      <input type="radio" id="webChoice2" name="webChoice" value="Personal">
+      <label for="webChoice2">Personal</label><br>
+      <input type="radio" id="webChoice3" name="webChoice" value="Portfolio">
+      <label for="webChoice3">Portfolio</label><br>
+      <br>
+      <label for="pricing" class="thick">How long for do you want your site to be developed? Prices will vary accordingly and on scale.</label>
+      <select name="pricing" id="pricing">
+      <option value="Short">Quick</option>
+      <option value="Not Likely">Standard</option>
+      <option value="Maybe">Long</option>
+      
+      </select>
+
+      <br>
+      <label><input id="submit" type="submit" class="buttoncolor"></label>
+      <label><input type="reset" class="buttoncolor"></label>
+    </div>
+  
+</form>
+</main>
+<footer>
+  <p class="copyright">Copyright © 2023 <a href="web-baker.com/index.html">Web Baker</a></p>
+  <p>
+  <a href="https://validator.w3.org/check?uri=referer" id="htmlValidator">
+  <img src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML." />
+  </a>   
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">
+  <img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS." />
+  </a>
+  </p>
+  </footer>
+</body>
+
+</html>
